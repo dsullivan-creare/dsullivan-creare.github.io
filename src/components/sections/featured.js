@@ -222,7 +222,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, gitlab, cover } = frontmatter;
+            const { external, title, tech, github, gitlab, android, ios, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -268,6 +268,24 @@ const Featured = ({ data }) => {
                         <FormattedIcon name="GitLab" />
                       </a>
                     )}
+                    {android && (
+                      <a
+                        href={android}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
+                        aria-label="Google Play Store Link">
+                        <FormattedIcon name="PlayStore" />
+                      </a>
+                    )}
+                    {ios && (
+                      <a
+                        href={ios}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
+                        aria-label="Apple App Store Link">
+                        <FormattedIcon name="AppStore" />
+                      </a>
+                    )}
                     {external && (
                       <a
                         href={external}
@@ -281,7 +299,7 @@ const Featured = ({ data }) => {
                 </StyledContent>
 
                 <StyledImgContainer
-                  href={external ? external : github ? github : gitlab ? gitlab : '#'}
+                  href={external ? external : github ? github : gitlab ? gitlab : android ? android : ios ? ios : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
                   <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
