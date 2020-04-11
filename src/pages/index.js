@@ -96,6 +96,7 @@ export const pageQuery = graphql`
             }
             tech
             github
+            gitlab
             external
           }
           html
@@ -115,6 +116,7 @@ export const pageQuery = graphql`
             title
             tech
             github
+            gitlab
             external
           }
           html

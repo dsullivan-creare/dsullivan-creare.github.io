@@ -1,38 +1,29 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
-  siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+  siteTitle: 'David Sullivan | Software Engineer',
+  siteDescription: 'David Sullivan is a full-stack software engineer based in Hanover, NH.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'David Sullivan, David, Sullivan, dsullivan, software engineer, full-stack engineer, developer, javascript, creare, fullstack, full-stack',
+  siteUrl: 'https://www.dsully.dev',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  name: 'David Sullivan',
+  location: 'Hanover, NH',
+  email: 'DWSully1992@gmail.com',
+  github: 'https://github.com/dsullivan-creare',
+  gitlab: 'https://gitlab.com/dsullivan-creare',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/dsullivan-creare',
+    },
+    {
+      name: 'GitLab',
+      url: 'https://gitlab.com/dsullivan-creare',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://www.linkedin.com/in/david-sullivan-a0b94a81/',
     },
   ],
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FaGitlab } from 'react-icons/fa';
 import {
   IconAppStore,
   IconCodepen,
@@ -32,6 +33,8 @@ const FormattedIcon = ({ name }) => {
       return <IconFork />;
     case 'GitHub':
       return <IconGitHub />;
+    case 'GitLab':
+      return <FaGitlab />;
     case 'Instagram':
       return <IconInstagram />;
     case 'Linkedin':

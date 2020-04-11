@@ -14,6 +14,7 @@ import IconPlayStore from './playstore';
 import IconStar from './star';
 import IconTwitter from './twitter';
 import IconZap from './zap';
+import { FaGitlab } from 'react-icons/fa';
 
 export {
   IconAppStore,
@@ -23,6 +24,7 @@ export {
   IconFork,
   FormattedIcon,
   IconGitHub,
+  FaGitlab,
   IconInstagram,
   IconLinkedin,
   IconLoader,
