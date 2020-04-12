@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.dsully.dev/sitemap.xml
+Host: https://www.dsully.dev
