@@ -14,4 +14,4 @@ company: 'Creare'
 showInProjects: true
 ---
 
-A platform for crowd-source environmental observations from mobile devices.
+A platform for crowd-source environmental observations from mobile devices, with analyses tools driven by machine learning in the back end.
