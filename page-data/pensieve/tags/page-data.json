@@ -1,1 +1,16 @@
-{"componentChunkName":"component---src-pages-pensieve-tags-js","path":"/pensieve/tags/","result":{"data":{"site":{"siteMetadata":{"title":"David Sullivan | Software Engineer"}},"allMarkdownRemark":{"group":[{"fieldValue":"Docker","totalCount":1},{"fieldValue":"WordPress","totalCount":2}]}},"pageContext":{}}}
+{
+  "componentChunkName": "component---src-pages-pensieve-tags-js",
+  "path": "/pensieve/tags/",
+  "result": {
+    "data": {
+      "site": { "siteMetadata": { "title": "David Sullivan | Software Engineer" } },
+      "allMarkdownRemark": {
+        "group": [
+          { "fieldValue": "Docker", "totalCount": 1 },
+          { "fieldValue": "WordPress", "totalCount": 2 }
+        ]
+      }
+    },
+    "pageContext": { "isCreatedByStatefulCreatePages": true }
+  }
+}
